@@ -1,0 +1,47 @@
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── PDF extraction ────────────────────────────────────────────────────────────
+pymupdf>=1.24.0
+
+# ── OCR fallback ──────────────────────────────────────────────────────────────
+pytesseract>=0.3.13
+Pillow>=10.0.0
+
+# ── NLP / sentence segmentation ───────────────────────────────────────────────
+spacy>=3.7.0
+nltk>=3.8.0
+
+# ── Machine learning / vectorization ─────────────────────────────────────────
+scikit-learn>=1.4.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# ── Graph-based ranking (TextRank / LexRank) ─────────────────────────────────
+networkx>=3.2.0
+
+# ── Topic modeling ────────────────────────────────────────────────────────────
+#gensim>=4.3.0
+
+# ── Optional: BERTopic (set USE_BERTOPIC=True in config.py to enable) ─────────
+# bertopic>=0.16.0
+# umap-learn>=0.5.6
+# hdbscan>=0.8.33
+
+# ── Optional: Sentence embeddings (set USE_EMBEDDINGS=True in config.py) ──────
+# sentence-transformers>=3.0.0
+
+# ── Vector store ──────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas>=2.0.0
+
+# ── PDF export ────────────────────────────────────────────────────────────────
+reportlab>=4.2.0
+
+# ── Optional: WeasyPrint (better HTML→PDF; requires system libs) ──────────────
+# weasyprint>=62.0
+
+# ── Visualization (topic charts in UI) ───────────────────────────────────────
+plotly>=5.20.0
